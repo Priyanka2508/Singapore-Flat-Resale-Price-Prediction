@@ -351,7 +351,6 @@ python-dateutil
 python-louvain==0.16
 python-slugify==8.0.1
 python-utils==3.8.1
-pytz
 pyviz_comms==3.0.0
 PyWavelets==1.5.0
 PyYAML==6.0.1
