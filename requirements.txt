@@ -378,7 +378,7 @@ seaborn==0.12.2
 SecretStorage==3.3.1
 Send2Trash==1.8.2
 shapely==2.0.2
-six==1.16.0
+six
 sklearn-pandas==2.2.0
 smart-open==6.4.0
 smmap==5.0.1
