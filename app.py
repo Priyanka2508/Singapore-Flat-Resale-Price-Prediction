@@ -110,5 +110,8 @@ with tab2:
             except Exception as e:
                 print(f"Error loading pickle file: {e}")
 
+            else:
+                 st.write('## :green[Predicted selling price:] ', np.exp(new_pred))
+                    
 
 
