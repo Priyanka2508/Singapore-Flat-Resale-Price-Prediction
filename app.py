@@ -104,17 +104,11 @@ with tab2:
                 new_sample[:, 2] = lc_model.transform(new_sample[:, 2])
                 final_sample = scaler_loaded.transform(new_sample)
                 new_pred = loaded_model.predict(final_sample)[0]
-                print('Predicted selling price:', np.exp(new_pred))
                 st.write('## :green[Predicted selling price:] ', np.exp(new_pred))
 
             except Exception as e:
                 print(f"Error loading pickle file: {e}")
 
-            else:
-                print('Predicted selling price:', np.exp(new_pred))
-                st.write('## :green[Predicted selling price:] ', np.exp(new_pred))
-
-
-            
+       
 
 
