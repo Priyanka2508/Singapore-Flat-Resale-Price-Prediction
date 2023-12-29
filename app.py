@@ -82,15 +82,15 @@ with tab2:
 
             try:
 
-                with open(r"C:/Users/91890/OneDrive/Desktop/GUVI_DS/Projects/Project 6_Resale price prediction for flats/model.pkl", 'rb') as file:
+                with open(r"model.pkl", 'rb') as file:
                     loaded_model = pickle.load(file)
-                with open(r'C:/Users/91890/OneDrive/Desktop/GUVI_DS/Projects/Project 6_Resale price prediction for flats/scaler.pkl', 'rb') as f:
+                with open(r'scaler.pkl', 'rb') as f:
                     scaler_loaded = pickle.load(f)
-                with open(r"C:/Users/91890/OneDrive/Desktop/GUVI_DS/Projects/Project 6_Resale price prediction for flats/lc_town.pkl", 'rb') as f:
+                with open(r"lc_town.pkl", 'rb') as f:
                     lc_town = pickle.load(f)
-                with open(r"C:/Users/91890/OneDrive/Desktop/GUVI_DS/Projects/Project 6_Resale price prediction for flats/lc_model.pkl", 'rb') as f:
+                with open(r"lc_model.pkl", 'rb') as f:
                     lc_model = pickle.load(f)
-                with open(r"C:/Users/91890/OneDrive/Desktop/GUVI_DS/Projects/Project 6_Resale price prediction for flats/lc_type.pkl", 'rb') as f:
+                with open(r"lc_type.pkl", 'rb') as f:
                     lc_type = pickle.load(f)
 
                 print("Models loaded successfully.")
