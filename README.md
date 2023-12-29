@@ -12,13 +12,7 @@ Process:
 
 1. The train dataset has all of the columns needed to generate and refine the models. The test dataset has all of those columns except for the target variable (resale price).
 
-2. Generate regression model using the training data. This process consists of:
-
-    Data Cleaning
-    EDA
-    Feature Engineering
-    Train-test split
-    Models: DecisionTree,Random Forest Regressor,KNeighbors Regressor
+2. Generate regression model using the training data. This process consists of: Data Cleaning,EDA,Feature Engineering,Train-test split,Models( DecisionTree,Random Forest Regressor,KNeighbors Regressor)
 
 3. Use of train-test split, cross-validation
 4. Evaluate models (Model with high R^2 score and low MSE is the optimal model to choose)
