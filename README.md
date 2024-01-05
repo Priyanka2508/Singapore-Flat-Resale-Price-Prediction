@@ -1,6 +1,6 @@
 # Singapore Flat Resale Price Prediction
 
-Dashboard: [Sigapore_Flat_Dashboard](https://singapore-falt-resale-price-prediction.onrender.com)
+Dashboard: [Singapore_Flat_Dashboard](https://singapore-falt-resale-price-prediction.onrender.com)
 
 The project will benefit both potential buyers and sellers in the Singapore housing market. Buyers can use the application to estimate resale prices and make informed decisions, while sellers can get an idea of their flat's potential market value. Additionally, the project demonstrates the practical application of machine learning in real estate and web development.
 
