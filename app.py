@@ -32,7 +32,7 @@ with tab2:
         town_options = ['SENGKANG','WOODLANDS','PUNGGOL','JURONG WEST','TAMPINES','YISHUN','BEDOK','HOUGANG','CHOA CHU KANG','ANG MO KIO','BUKIT MERAH','BUKIT PANJANG','BUKIT BATOK','TOA PAYOH',
         'PASIR RIS','KALLANG/WHAMPOA','QUEENSTOWN','SEMBAWANG','GEYLANG','CLEMENTI','JURONG EAST','SERANGOON','BISHAN','CENTRAL AREA','MARINE PARADE','BUKIT TIMAH']
         flat_model_options = ['Improved', 'New Generation', 'Model A', 'Standard', 'Simplified','Premium Apartment', 'Maisonette', 'Apartment', 'Model A2','Type S1', 'Type S2', 'Adjoined flat', 'Terrace', 'DBSS',
-        'Model A-Maisonette', 'Premium Maisonette', 'Multi Generation','Premium Apartment Loft', 'Improved-Maisonette', '2-room', '3Gen','Improved-Maisonette']
+        'Model A-Maisonette', 'Premium Maisonette', 'Multi Generation','Premium Apartment Loft', 'Improved-Maisonette', '2-room', '3Gen']
         flat_type_options = ['3 ROOM', '4 ROOM', '5 ROOM', '2 ROOM', 'EXECUTIVE', '1 ROOM','MULTI-GENERATION']
 
         # Define the widgets for user input
